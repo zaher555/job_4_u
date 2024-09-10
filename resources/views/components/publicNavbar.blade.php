@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <span style=" font-family: Playwrite CU, cursive; font-optical-sizing: auto;
+        <span style="font-family: Playwrite CU, cursive; font-optical-sizing: auto;
         font-style: normal;text-decoration:none" class="text-white">Job 4 U</span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>

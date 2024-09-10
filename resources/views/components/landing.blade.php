@@ -78,7 +78,7 @@
     </style>
 </head>
 <body>
-    <x-navbar>$slot</x-navbar>
+    <x-publicNavbar>$slot</x-publicNavbar>
     <div class="landing text-center d-flex justify-content-center align-items-center">
         <video class="background-video" autoplay loop muted>
             <source src="https://cdn.pixabay.com/video/2016/08/22/4723-179738625_tiny.mp4" type="video/mp4">
