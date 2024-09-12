@@ -17,3 +17,9 @@ Route::get('/view-job', function () {
 Route::get('/job-application', function () {
     return view('components/candidate/jobApplication');
 });
+Route::get('/profile', function () {
+    return view('components/profile');
+});
+Route::get('/edit-Profile', function () {
+    return view('components/editProfile');
+});
