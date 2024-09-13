@@ -30,3 +30,9 @@ Route::get('/employer-home-page', function () {
 Route::get('/employer-view-job', function () {
     return view('components/employer/viewJob');
 });
+Route::get('/newJob', function () {
+    return view('components/employer/newJob');
+});
+Route::get('/editJob', function () {
+    return view('components/employer/editJob');
+});
