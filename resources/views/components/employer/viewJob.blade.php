@@ -80,7 +80,7 @@
                     <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
                     <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
                 </div>
-                <button class="btn text-dark mt-4 ms-3">Back</button>
+                <button class="btn text-dark mt-4">Back</button>
             </div>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

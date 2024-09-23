@@ -99,7 +99,7 @@
                 <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
                 <button class="btn bg-white d-block mt-4">View Job</button>
             </div>
-            <div class="mt-5 pb-5 m-auto w-25">
+            <div class="mt-5 pb-5 d-flex justify-content-center">
                 <nav class="bg-white">
                     <ul class="pagination">
                       <li class="page-item">

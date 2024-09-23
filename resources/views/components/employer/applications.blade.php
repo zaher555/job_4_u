@@ -57,39 +57,27 @@
 <body>
     <x-employer-nav>$slot</x-employer-nav>
     <div class="container mt-5">
-        <button class="btn post">New Job</button>
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <table class="table mt-2 w-50">
-                    <thead>
-                        <tr>
-                            <th>Job Title</th>
-                            <th>Location</th>
-                            <th>Type</th>
-                            <th>Level</th>
-                            <th>Work Type</th>
-                            <th>Posted Date</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>php</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>mdo</td>
-                            <td>1</td>
-                            <td>Mark</td>
-                            <td class="d-flex">
-                                <button class="btn first text-white">View</button>
-                                <button class="btn btn-warning">Edit</button>
-                                <button class="btn btn-danger">Delete</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+        <table class="table mt-2">
+            <thead>
+                <tr>
+                    <th>Job Title</th>
+                    <th>Required Level</th>
+                    <th>Total Applicants</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>php</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td class="d-flex justify-content-center">
+                        <button class="btn first text-white">View</button>
+                        <button class="btn btn-danger ms-2">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <div class="mt-5 pb-5 m-auto w-25">
             <nav class="bg-white">
                 <ul class="pagination">

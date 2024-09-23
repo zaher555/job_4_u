@@ -25,72 +25,35 @@
             text-decoration: none;
             font-weight: bolder;
         }
-        button
+        .card
         {
-            font-weight: bolder !important;
-        }
-        .first
-        {
-            background-color: #12072A;
-        }
-        .first:hover
-        {
-            background-color: #12072A;
-        }
-        th
-        {
-            text-align: center;
-            background-color: #12072A !important;
-            color: white !important;
-        }
-        tr
-        {
-            text-align: center;
-        }
-        .post
-        {
-            background-color: #12072A;
-            color: white;
+            border: 2px solid #12072A;
         }
     </style>
 </head>
 <body>
     <x-employer-nav>$slot</x-employer-nav>
     <div class="container mt-5">
-        <button class="btn post">New Job</button>
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12">
-                <table class="table mt-2 w-50">
-                    <thead>
-                        <tr>
-                            <th>Job Title</th>
-                            <th>Location</th>
-                            <th>Type</th>
-                            <th>Level</th>
-                            <th>Work Type</th>
-                            <th>Posted Date</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>php</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>mdo</td>
-                            <td>1</td>
-                            <td>Mark</td>
-                            <td class="d-flex">
-                                <button class="btn first text-white">View</button>
-                                <button class="btn btn-warning">Edit</button>
-                                <button class="btn btn-danger">Delete</button>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="mt-5 pb-5 m-auto w-25">
+        <div class="card p-5">
+            <h5 class="card-title">php</h5>
+            <p class="card-text">Applicant: </p>
+            <p class="card-text">Education: </p>
+            <form>
+                <div class="checks">
+                    <div>
+                        <input type="radio" name="status"> <label>checked</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="status"> <label>accepted</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="status"> <label>not accepted</label>
+                    </div>
+                </div>
+              <button class="btn btn-warning mt-3">Submit</button>
+            </form>
+          </div>
+        <div class="mt-5 pb-5 m-auto d-flex justify-content-center">
             <nav class="bg-white">
                 <ul class="pagination">
                   <li class="page-item">

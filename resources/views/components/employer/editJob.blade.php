@@ -51,50 +51,53 @@
     </style>
 </head>
 <body>
-    <form action="" method="" class="border rounded p-5 w-50 m-auto mt-5">
-        <h3 class="text-center pb-3">Update Job</h3>
-        <div class="mb-3">
-            <label for="jobTitle" class="form-label">Job Title</label>
-            <input type="text" class="form-control" id="jobTitle" placeholder="Job Title" name="jobTitle" value="">
-          </div>
+    <div class="container mt-5 pb-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center d-flex">
+                <form action="" method="" class="border rounded p-5 w-100 m-auto mt-5">
+                    <h3 class="text-center pb-3">Update Job</h3>
+                    <div class="mb-3">
+                        <label for="jobTitle" class="form-label">Job Title</label>
+                        <input type="text" class="form-control" id="jobTitle" placeholder="Job Title" name="jobTitle" value="">
+                    </div>
 
-          <div class="mb-3">
-            <label for="jobDescription" class="form-label">Job Description</label>
-            <input type="text" class="form-control" id="jobDescription" placeholder="Job Description" name="jobDescription" value="">
-          </div>
+                    <div class="mb-3">
+                        <label for="jobDescription" class="form-label">Job Description</label>
+                        <input type="text" class="form-control" id="jobDescription" placeholder="Job Description" name="jobDescription" value="">
+                    </div>
 
-          <div class="mb-3">
-            <label for="requiredSkills" class="form-label">Required Skills</label>
-            <input type="email" class="form-control" id="requiredSkills" placeholder="Required Skills" name="requiredSkills" value="">
-          </div>
+                    <div class="mb-3">
+                        <label for="requiredSkills" class="form-label">Required Skills</label>
+                        <input type="email" class="form-control" id="requiredSkills" placeholder="Required Skills" name="requiredSkills" value="">
+                    </div>
 
-          <div class="mb-3">
-            <label for="location" class="form-label">Location</label>
-            <input type="text" class="form-control" id="location" placeholder="Location" name="location" value="">
-          </div>
+                    <div class="mb-3">
+                        <label for="location" class="form-label">Location</label>
+                        <input type="text" class="form-control" id="location" placeholder="Location" name="location" value="">
+                    </div>
 
-          <div class="mb-3">
-            <label for="jobType" class="form-label">Job Type</label>
-            <input type="text" class="form-control" id="jobType" placeholder="Job Type" name="jobType" value="">
-          </div>
+                    <div class="mb-3">
+                        <label for="jobType" class="form-label">Job Type</label>
+                        <input type="text" class="form-control" id="jobType" placeholder="Job Type" name="jobType" value="">
+                    </div>
 
-          <div class="mb-3">
-            <label for="level" class="form-label">Level</label>
-            <input type="text" class="form-control" id="level" placeholder="Level" name="level" value="">
-          </div>
-          <div class="mb-3">
-            <label for="workLocation" class="form-label">Work Location</label>
-            <input type="text" class="form-control" id="workLocation" placeholder="Work Location" name="workLocation" value="">
-          </div>
-          <div class="mb-3">
-            <label for="salary" class="form-label d-block">Salary</label>
-            <input type="number" class="form-control w-75 d-inline-block" id="salary" placeholder="Salary" name="salary" name="salary" value=""> EGP
-          </div>
-          <div class="buttons text-center">
-            <button type="submit" class="btn text-white first">Update</button>
-            <button type="submit" class="btn btn-danger text-white">Cancel</button>
-          </div>
-    </form>
+                    <div class="mb-3">
+                        <label for="level" class="form-label">Level</label>
+                        <input type="text" class="form-control" id="level" placeholder="Level" name="level" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="workLocation" class="form-label">Work Location</label>
+                        <input type="text" class="form-control" id="workLocation" placeholder="Work Location" name="workLocation" value="">
+                    </div>
+                    <div class="mb-3">
+                        <label for="salary" class="form-label d-block">Salary</label>
+                        <input type="number" class="form-control w-75 d-inline-block" id="salary" placeholder="Salary" name="salary" name="salary" value=""> EGP
+                    </div>
+                    <div class="buttons text-center">
+                        <button type="submit" class="btn text-white first">Update</button>
+                        <button type="submit" class="btn btn-danger text-white">Cancel</button>
+                    </div>
+                </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

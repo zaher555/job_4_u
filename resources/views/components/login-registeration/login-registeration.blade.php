@@ -39,68 +39,81 @@
         {
             border-color: #12072A !important;
         }
+        @media(max-width:768px)
+        {
+            form
+            {
+                width: 100% !important;
+            }
+        }
     </style>
 </head>
 <body>
-    <form action="" method="" class="border rounded p-5 w-50 m-auto mt-5">
-        <h3 class="text-center pb-3">Register</h3>
-        </div>
-        <div class="input-group">
-            <span class="input-group-text text-white">First and last name</span>
-            <input type="text"  class="form-control" name="firstName" placeholder="First Name">
-            <input type="text" class="form-control" name="lastName" placeholder="Last Name">
-        </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center d-flex">
+                {{-- <form action="" method="" class="border rounded p-5">
+                    <h3 class="text-center pb-3">Register</h3>
 
-        <div class="input-group mb-3 mt-3">
-            <span class="input-group-text text-white" id="email"><i class="fa-solid fa-envelope"></i></span>
-            <input type="email" class="form-control" placeholder="Email" name="email">
-        </div>
+                    <div class="input-group">
+                        <span class="input-group-text text-white">First and last name</span>
+                        <input type="text"  class="form-control" name="firstName" placeholder="First Name">
+                        <input type="text" class="form-control" name="lastName" placeholder="Last Name">
+                    </div>
 
-        <div class="input-group mb-3 mt-3">
-            <span class="input-group-text text-white" id="password"><i class="fa-solid fa-lock"></i></span>
-            <input type="password" class="form-control" placeholder="Password" name="password">
-        </div>
+                    <div class="input-group mb-3 mt-3">
+                        <span class="input-group-text text-white" id="email"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" class="form-control" placeholder="Email" name="email">
+                    </div>
 
-        <div class="input-group mb-3 mt-3">
-            <span class="input-group-text text-white" id="re-password"><i class="fa-solid fa-lock"></i></span>
-            <input type="password" class="form-control" placeholder="Re-enter Password" name="re-password">
-        </div>
+                    <div class="input-group mb-3 mt-3">
+                        <span class="input-group-text text-white" id="password"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" class="form-control" placeholder="Password" name="password">
+                    </div>
 
-        <div class="input-group mb-3 mt-3">
-            <span class="input-group-text text-white" id="phone"><i class="fa-solid fa-phone"></i></span>
-            <input type="text" class="form-control" placeholder="Phone" name="phone">
-        </div>
-        <div class="text-center">
-            <h4 class="text-center">Upload Your Photo</h4>
-            <div class="input-group mb-3">
-                <input type="file" class="form-control" id="inputGroupFile02">
-        </div>
-        <hr>
-        <div class="text-center">
-            <h5 class="text-center pb-3">Or Sign Up With:</h5>
-            <button class="btn btn-white w-25"><i class="fa-brands fa-google"></i> gmail</button>
-            <button class="btn btn-white w-25"><i class="fa-brands fa-github"></i> github</button>
-        </div>
-    </form>
+                    <div class="input-group mb-3 mt-3">
+                        <span class="input-group-text text-white" id="re-password"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" class="form-control" placeholder="Re-enter Password" name="re-password">
+                    </div>
 
-    {{-- <form action="" method="" class="border rounded p-5 w-50 m-auto mt-5">
-        <h3 class="text-center pb-3">Log In</h3>
-        <div class="input-group mb-3 mt-3">
-            <span class="input-group-text text-white" id="email"><i class="fa-solid fa-envelope"></i></span>
-            <input type="email" class="form-control" placeholder="Email" name="email">
-        </div>
+                    <div class="input-group mb-3 mt-3">
+                        <span class="input-group-text text-white" id="phone"><i class="fa-solid fa-phone"></i></span>
+                        <input type="text" class="form-control" placeholder="Phone" name="phone">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-center">Upload Your Photo</h4>
+                        <div class="input-group mb-3">
+                            <input type="file" class="form-control" id="inputGroupFile02">
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <h5 class="text-center pb-3">Or Sign Up With:</h5>
+                        <button class="btn btn-white  ps-3 pe-3"><i class="fa-brands fa-google"></i> gmail</button>
+                        <button class="btn btn-white  ps-3 pe-3"><i class="fa-brands fa-github"></i> github</button>
+                    </div>
+                </form> --}}
 
-        <div class="input-group mb-3 mt-3">
-            <span class="input-group-text text-white" id="password"><i class="fa-solid fa-lock"></i></span>
-            <input type="password" class="form-control" placeholder="Password" name="password">
+                <form action="" method="" class="border rounded p-5">
+                    <h3 class="text-center pb-3">Log In</h3>
+                    <div class="input-group mb-3 mt-3">
+                        <span class="input-group-text text-white" id="email"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" class="form-control" placeholder="Email" name="email">
+                    </div>
+
+                    <div class="input-group mb-3 mt-3">
+                        <span class="input-group-text text-white" id="password"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" class="form-control" placeholder="Password" name="password">
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <h5 class="text-center pb-3">Or Sign Up With:</h5>
+                        <button class="btn btn-white  ps-3 pe-3"><i class="fa-brands fa-google"></i> gmail</button>
+                        <button class="btn btn-white  ps-3 pe-3"><i class="fa-brands fa-github"></i> github</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <hr>
-        <div class="text-center">
-            <h5 class="text-center pb-3">Or Login In With:</h5>
-            <button class="btn btn-white w-25"><i class="fa-brands fa-google"></i> gmail</button>
-            <button class="btn btn-white w-25"><i class="fa-brands fa-github"></i> github</button>
-        </div>
-    </form> --}}
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

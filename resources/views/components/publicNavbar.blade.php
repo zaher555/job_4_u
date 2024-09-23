@@ -3,7 +3,7 @@
         <span style="font-family: Playwrite CU, cursive; font-optical-sizing: auto;
         font-style: normal;text-decoration:none" class="text-white">Job 4 U</span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"><i class="fa-solid fa-bars text-white"></i></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
