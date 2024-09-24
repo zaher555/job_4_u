@@ -21,6 +21,7 @@ return new class extends Migration
             $table->foreignId('employer_id')->nullable()->constrained('employer')->cascadeOnDelete();
             $table->foreignId('employee_id')->nullable()->constrained('employee')->cascadeOnDelete();
             $table->foreignId('admin_id')->nullable()->constrained('admin')->cascadeOnDelete();
+            $table->enum('role',['admin','employer','employee']);
             $table->timestamps();
         });
     }

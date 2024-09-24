@@ -24,6 +24,8 @@ return new class extends Migration
             $table->string('scientific_grade');
             $table->string('skills');
             $table->string('linkedin')->unique();
+            $table->string('city');
+            $table->string('country');
             $table->timestamps();
         });
     }

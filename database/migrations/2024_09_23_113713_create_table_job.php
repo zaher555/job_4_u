@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('job', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('employer_id')->nullable()->constrained('employer')->cascadeOnDelete();
             $table->string('title');
             $table->string('description');
             $table->string('required_skills');
@@ -22,7 +23,7 @@ return new class extends Migration
             $table->enum('experience-level',['entry level','mid-level','junior','senior']);
             $table->bigInteger('salary');
             $table->date('date_posted');
-            $table->foreignId('employer_id')->nullable()->constrained('employer')->cascadeOnDelete();
+            $table->enum('status',['open','closed']);
             $table->timestamps();
         });
     }

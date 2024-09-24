@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('application', function (Blueprint $table) {
             $table->id();
-            $table->date('date_applied');
             $table->foreignId('job_id')->nullable()->constrained('job')->cascadeOnDelete();
+            $table->date('date_applied');
+            $table->enum('status',['not_reviwed','accepted','rejected']);
             $table->timestamps();
         });
     }

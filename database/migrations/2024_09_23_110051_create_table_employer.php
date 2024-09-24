@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('bio');
             $table->string('about');
+            $table->string('city');
+            $table->string('country');
             $table->timestamps();
         });
     }
